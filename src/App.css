@@ -1,0 +1,22 @@
+.App {
+  width: 100%;
+}
+
+@media (max-width: 425px) {
+  .Main div {flex-direction: column-reverse; align-items: center;}
+  .Main div {
+      width: 90%;
+
+  }
+    .Main div:first-child {
+        width: 90%;
+        align-items: center;
+
+    }
+}
+.MuiTablePagination-toolbar-159 {
+    height: 56px;
+    min-height: 126px;
+    padding-right: 2px;
+}
+
