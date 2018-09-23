@@ -66,7 +66,7 @@ const proxy = {
                 name: randomName(),
                 lastName: randomLastName(),
                 group: randomGroup(),
-                id: i + 'g' + new Date()
+                id: i + 'g' + Math.floor(Math.random() * (Date.now()))
             })
         }
 
